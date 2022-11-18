@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModelParser
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModelParser
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DTDLParser.ModelParser">
+  
+  
+  <h1 id="DTDLParser_ModelParser" data-uid="DTDLParser.ModelParser" class="text-break">Class ModelParser
+  </h1>
+  <div class="markdown level0 summary"><p>Instances of the <code>ModelParser</code> class parse models written in the DTDL language.
+This class can be used to determine whether one or more DTDL models are valid, to identify specific modeling errors, and to enable inspection of model contents.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModelParser</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DTDLParser.html">DTDLParser</a></h6>
+  <h6><strong>Assembly</strong>: Microsoft.Azure.DigitalTwins.Parser.dll</h6>
+  <h5 id="DTDLParser_ModelParser_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModelParser : IDisposable</code></pre>
+  </div>
+  <h5 id="DTDLParser_ModelParser_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The primary methods on this class are <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Parse_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">Parse(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> and <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_ParseAsync_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">ParseAsync(IEnumerable&lt;String&gt;, DtdlParseLocator)</a>.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DTDLParser_ModelParser__ctor_" data-uid="DTDLParser.ModelParser.#ctor*"></a>
+  <h4 id="DTDLParser_ModelParser__ctor" data-uid="DTDLParser.ModelParser.#ctor">ModelParser()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DTDLParser.ModelParser.html">ModelParser</a> class.
+Instances created by this constructor do not permit calls to the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_LoadExtensions_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">LoadExtensions(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModelParser()</code></pre>
+  </div>
+  
+  
+  <a id="DTDLParser_ModelParser__ctor_" data-uid="DTDLParser.ModelParser.#ctor*"></a>
+  <h4 id="DTDLParser_ModelParser__ctor_System_Int32_" data-uid="DTDLParser.ModelParser.#ctor(System.Int32)">ModelParser(Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DTDLParser.ModelParser.html">ModelParser</a> class.
+Instances created by this constructor permit calls to the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_LoadExtensions_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">LoadExtensions(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> method if <code data-dev-comment-type="paramref" class="paramref">maxReadConcurrency</code> &gt; 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModelParser(int maxReadConcurrency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxReadConcurrency</span></td>
+        <td><p>The maximum count of read operations that may proceed concurrently.  A value of 0 permits arbitrary read concurrency, and also avoids the need for calling the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Dispose">Dispose()</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DTDLParser_ModelParser__ctor_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Read operations include calls to <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Parse_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">Parse(IEnumerable&lt;String&gt;, DtdlParseLocator)</a>, <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_ParseAsync_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">ParseAsync(IEnumerable&lt;String&gt;, DtdlParseLocator)</a>, and <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_GetSupplementalTypes">GetSupplementalTypes()</a>; and accesses to the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_DtmiResolver">DtmiResolver</a>, <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_DtmiResolverAsync">DtmiResolverAsync</a>, <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_ResolveLocator">ResolveLocator</a>, <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Options">Options</a>, and <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_MaxDtdlVersion">MaxDtdlVersion</a> properties.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DTDLParser_ModelParser_DtmiResolver_" data-uid="DTDLParser.ModelParser.DtmiResolver*"></a>
+  <h4 id="DTDLParser_ModelParser_DtmiResolver" data-uid="DTDLParser.ModelParser.DtmiResolver">DtmiResolver</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <code>DtmiResolver</code> callback that will be called to resolve <code>@context</code> references or undefined identifiers.
+This callback will be called during execution of the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Parse_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">Parse(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DtmiResolver DtmiResolver { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtmiResolver.html">DtmiResolver</a></td>
+        <td><p>Callback delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_DtmiResolverAsync_" data-uid="DTDLParser.ModelParser.DtmiResolverAsync*"></a>
+  <h4 id="DTDLParser_ModelParser_DtmiResolverAsync" data-uid="DTDLParser.ModelParser.DtmiResolverAsync">DtmiResolverAsync</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <code>DtmiResolverAsync</code> callback that will be called to resolve <code>@context</code> references or undefined identifiers.
+This callback will be called during execution of the <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_ParseAsync_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">ParseAsync(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DtmiResolverAsync DtmiResolverAsync { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtmiResolverAsync.html">DtmiResolverAsync</a></td>
+        <td><p>Callback delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_MaxDtdlVersion_" data-uid="DTDLParser.ModelParser.MaxDtdlVersion*"></a>
+  <h4 id="DTDLParser_ModelParser_MaxDtdlVersion" data-uid="DTDLParser.ModelParser.MaxDtdlVersion">MaxDtdlVersion</h4>
+  <div class="markdown level1 summary"><p>Gets or sets an optional integer value that restricts the highest DTDL version the parser should accept.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxDtdlVersion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DTDLParser_ModelParser_MaxDtdlVersion_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If a model specifying a DTDL version greater than <code>MaxDtdlVersion</code> is submitted to <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_Parse_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">Parse(IEnumerable&lt;String&gt;, DtdlParseLocator)</a> or <a class="xref" href="DTDLParser.ModelParser.html#DTDLParser_ModelParser_ParseAsync_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_">ParseAsync(IEnumerable&lt;String&gt;, DtdlParseLocator)</a>, a <a class="xref" href="DTDLParser.ParsingException.html">ParsingException</a> will be thrown with a <a class="xref" href="DTDLParser.ParsingError.html">ParsingError</a> indicating a <code>ValidationID</code> of dtmi:dtdl:parsingError:disallowedContextVersion.</p>
+</div>
+  
+  
+  <a id="DTDLParser_ModelParser_Options_" data-uid="DTDLParser.ModelParser.Options*"></a>
+  <h4 id="DTDLParser_ModelParser_Options" data-uid="DTDLParser.ModelParser.Options">Options</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a set of <a class="xref" href="DTDLParser.ModelParsingOption.html">ModelParsingOption</a> values that control parsing of DTDL models.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModelParsingOption Options { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.ModelParsingOption.html">ModelParsingOption</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_ResolveLocator_" data-uid="DTDLParser.ModelParser.ResolveLocator*"></a>
+  <h4 id="DTDLParser_ModelParser_ResolveLocator" data-uid="DTDLParser.ModelParser.ResolveLocator">ResolveLocator</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="DTDLParser.DtdlResolveLocator.html">DtdlResolveLocator</a> delegate that will be called to convert a resolve DTMI and line number into a source name and line number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DtdlResolveLocator ResolveLocator { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtdlResolveLocator.html">DtdlResolveLocator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DTDLParser_ModelParser_Dispose_" data-uid="DTDLParser.ModelParser.Dispose*"></a>
+  <h4 id="DTDLParser_ModelParser_Dispose" data-uid="DTDLParser.ModelParser.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="DTDLParser_ModelParser_GetSupplementalTypes_" data-uid="DTDLParser.ModelParser.GetSupplementalTypes*"></a>
+  <h4 id="DTDLParser_ModelParser_GetSupplementalTypes" data-uid="DTDLParser.ModelParser.GetSupplementalTypes">GetSupplementalTypes()</h4>
+  <div class="markdown level1 summary"><p>Returns a collection of <code>DTSupplementalTypeInfo</code> objects, each of which provides information about a type known to the parser that is not materialized as a C# class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;Dtmi, DTSupplementalTypeInfo&gt; GetSupplementalTypes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a>, <a class="xref" href="DTDLParser.Models.DTSupplementalTypeInfo.html">DTSupplementalTypeInfo</a>&gt;</td>
+        <td><p>A dictionary that maps each <code>Dtmi</code> to a <code>DTSupplementalTypeInfo</code> object that describes the type with the given identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_GetTermOrUri_" data-uid="DTDLParser.ModelParser.GetTermOrUri*"></a>
+  <h4 id="DTDLParser_ModelParser_GetTermOrUri_System_Uri_" data-uid="DTDLParser.ModelParser.GetTermOrUri(System.Uri)">GetTermOrUri(Uri)</h4>
+  <div class="markdown level1 summary"><p>Get a term from a URI if defined in the context. If not, return the URI as a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetTermOrUri(Uri uri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>The URI for which to get the term.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The value of the term or the URI string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_LoadExtensions_" data-uid="DTDLParser.ModelParser.LoadExtensions*"></a>
+  <h4 id="DTDLParser_ModelParser_LoadExtensions_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_" data-uid="DTDLParser.ModelParser.LoadExtensions(System.Collections.Generic.IEnumerable{System.String},DTDLParser.DtdlParseLocator)">LoadExtensions(IEnumerable&lt;String&gt;, DtdlParseLocator)</h4>
+  <div class="markdown level1 summary"><p>Load a collection of JSON text strings as DTDL language extensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadExtensions(IEnumerable&lt;string&gt; jsonTexts, DtdlParseLocator dtdlLocator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">jsonTexts</span></td>
+        <td><p>The JSON text strings to parse as DTDL language extensions.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a></td>
+        <td><span class="parametername">dtdlLocator</span></td>
+        <td><p>An optional <a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a> delegate for converting a parse index and line number into a source name and line number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DTDLParser_ModelParser_LoadExtensions_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calling this method is permitted only on a <a class="xref" href="DTDLParser.ModelParser.html">ModelParser</a> object instantiated with a non-zero <code>maxReadConcurrency</code> value.</p>
+</div>
+  
+  
+  <a id="DTDLParser_ModelParser_Parse_" data-uid="DTDLParser.ModelParser.Parse*"></a>
+  <h4 id="DTDLParser_ModelParser_Parse_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_" data-uid="DTDLParser.ModelParser.Parse(System.Collections.Generic.IEnumerable{System.String},DTDLParser.DtdlParseLocator)">Parse(IEnumerable&lt;String&gt;, DtdlParseLocator)</h4>
+  <div class="markdown level1 summary"><p>Parse a collection of JSON text strings as DTDL models.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;Dtmi, DTEntityInfo&gt; Parse(IEnumerable&lt;string&gt; jsonTexts, DtdlParseLocator dtdlLocator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">jsonTexts</span></td>
+        <td><p>The JSON text strings to parse as DTDL models.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a></td>
+        <td><span class="parametername">dtdlLocator</span></td>
+        <td><p>An optional <a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a> delegate for converting a parse index and line number into a source name and line number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a>, <a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a>&gt;</td>
+        <td><p>A dictionary that maps each <code>Dtmi</code> to a subclass of <code>DTEntityInfo</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ModelParser_ParseAsync_" data-uid="DTDLParser.ModelParser.ParseAsync*"></a>
+  <h4 id="DTDLParser_ModelParser_ParseAsync_System_Collections_Generic_IEnumerable_System_String__DTDLParser_DtdlParseLocator_" data-uid="DTDLParser.ModelParser.ParseAsync(System.Collections.Generic.IEnumerable{System.String},DTDLParser.DtdlParseLocator)">ParseAsync(IEnumerable&lt;String&gt;, DtdlParseLocator)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously parse a collection of JSON text strings as DTDL models.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IReadOnlyDictionary&lt;Dtmi, DTEntityInfo&gt;&gt; ParseAsync(IEnumerable&lt;string&gt; jsonTexts, DtdlParseLocator dtdlLocator = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">jsonTexts</span></td>
+        <td><p>The JSON text strings to parse as DTDL models.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a></td>
+        <td><span class="parametername">dtdlLocator</span></td>
+        <td><p>An optional <a class="xref" href="DTDLParser.DtdlParseLocator.html">DtdlParseLocator</a> delegate for converting a parse index and line number into a source name and line number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a>, <a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a>&gt;&gt;</td>
+        <td><p>A <code>Task</code> object whose <code>Result</code> property is a dictionary that maps each <code>Dtmi</code> to a subclass of <code>DTEntityInfo</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

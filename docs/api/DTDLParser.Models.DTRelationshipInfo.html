@@ -1,0 +1,918 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DTRelationshipInfo
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DTRelationshipInfo
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DTDLParser.Models.DTRelationshipInfo">
+  
+  
+  <h1 id="DTDLParser_Models_DTRelationshipInfo" data-uid="DTDLParser.Models.DTRelationshipInfo" class="text-break">Class DTRelationshipInfo
+  </h1>
+  <div class="markdown level0 summary"><p>Class <code>DTRelationshipInfo</code> corresponds to an element of type Relationship in a DTDL model.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a></div>
+    <div class="level2"><a class="xref" href="DTDLParser.Models.DTNamedEntityInfo.html">DTNamedEntityInfo</a></div>
+    <div class="level3"><a class="xref" href="DTDLParser.Models.DTContentInfo.html">DTContentInfo</a></div>
+    <div class="level4"><span class="xref">DTRelationshipInfo</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="DTDLParser.Models.DTNamedEntityInfo.html">DTNamedEntityInfo</a>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="DTDLParser.Models.DTContentInfo.html">DTContentInfo</a>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTNamedEntityInfo.html#DTDLParser_Models_DTNamedEntityInfo_Name">DTNamedEntityInfo.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_EntityKind">DTEntityInfo.EntityKind</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_ChildOf">DTEntityInfo.ChildOf</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_DefinedIn">DTEntityInfo.DefinedIn</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_Id">DTEntityInfo.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_UndefinedProperties">DTEntityInfo.UndefinedProperties</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_LanguageVersion">DTEntityInfo.LanguageVersion</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_UndefinedTypes">DTEntityInfo.UndefinedTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_Description">DTEntityInfo.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_DisplayName">DTEntityInfo.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_Comment">DTEntityInfo.Comment</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_ValidateInstance_JsonElement_">DTEntityInfo.ValidateInstance(JsonElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="DTDLParser.Models.DTEntityInfo.html#DTDLParser_Models_DTEntityInfo_ValidateInstance_System_String_">DTEntityInfo.ValidateInstance(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DTDLParser.Models.html">DTDLParser.Models</a></h6>
+  <h6><strong>Assembly</strong>: Microsoft.Azure.DigitalTwins.Parser.dll</h6>
+  <h5 id="DTDLParser_Models_DTRelationshipInfo_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DTRelationshipInfo : DTContentInfo, IEquatable&lt;DTEntityInfo&gt;, IEquatable&lt;DTNamedEntityInfo&gt;, IEquatable&lt;DTContentInfo&gt;, IEquatable&lt;DTRelationshipInfo&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_ClassId_" data-uid="DTDLParser.Models.DTRelationshipInfo.ClassId*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_ClassId" data-uid="DTDLParser.Models.DTRelationshipInfo.ClassId">ClassId</h4>
+  <div class="markdown level1 summary"><p>Get the DTMI that identifies type Relationship in the version of DTDL used to define this element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Dtmi ClassId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a></td>
+        <td><p>The DTMI for the DTDL type Relationship.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_ClassId">DTContentInfo.ClassId</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_MaxMultiplicity_" data-uid="DTDLParser.Models.DTRelationshipInfo.MaxMultiplicity*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_MaxMultiplicity" data-uid="DTDLParser.Models.DTRelationshipInfo.MaxMultiplicity">MaxMultiplicity</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the 'maxMultiplicity' property of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxMultiplicity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The 'maxMultiplicity' property of the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_MinMultiplicity_" data-uid="DTDLParser.Models.DTRelationshipInfo.MinMultiplicity*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_MinMultiplicity" data-uid="DTDLParser.Models.DTRelationshipInfo.MinMultiplicity">MinMultiplicity</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the 'minMultiplicity' property of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MinMultiplicity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The 'minMultiplicity' property of the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Properties_" data-uid="DTDLParser.Models.DTRelationshipInfo.Properties*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Properties" data-uid="DTDLParser.Models.DTRelationshipInfo.Properties">Properties</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the 'properties' property of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DTPropertyInfo&gt; Properties { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DTDLParser.Models.DTPropertyInfo.html">DTPropertyInfo</a>&gt;</td>
+        <td><p>The 'properties' property of the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_SupplementalProperties_" data-uid="DTDLParser.Models.DTRelationshipInfo.SupplementalProperties*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_SupplementalProperties" data-uid="DTDLParser.Models.DTRelationshipInfo.SupplementalProperties">SupplementalProperties</h4>
+  <div class="markdown level1 summary"><p>Gets the supplemantal properties of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IDictionary&lt;string, object&gt; SupplementalProperties { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><p>A dictionary that maps each string-valued property name to an object that holds the value of the property with the given name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_SupplementalProperties">DTContentInfo.SupplementalProperties</a></div>
+  <h5 id="DTDLParser_Models_DTRelationshipInfo_SupplementalProperties_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the property is a literal in the DTDL model, the object holds a literal value.
+If the property is another DTDL element in the model, the object is the C# object that corresponds to this element.</p>
+</div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_SupplementalTypes_" data-uid="DTDLParser.Models.DTRelationshipInfo.SupplementalTypes*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_SupplementalTypes" data-uid="DTDLParser.Models.DTRelationshipInfo.SupplementalTypes">SupplementalTypes</h4>
+  <div class="markdown level1 summary"><p>Gets a collection of identifiers, each of which is a <code>Dtmi</code> that indicates a supplemental type that applies to the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IReadOnlyCollection&lt;Dtmi&gt; SupplementalTypes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a>&gt;</td>
+        <td><p>A collection of DTMIs indicating the supplemental types that apply to the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_SupplementalTypes">DTContentInfo.SupplementalTypes</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Target_" data-uid="DTDLParser.Models.DTRelationshipInfo.Target*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Target" data-uid="DTDLParser.Models.DTRelationshipInfo.Target">Target</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the 'target' property of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dtmi Target { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Dtmi.html">Dtmi</a></td>
+        <td><p>The 'target' property of the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Writable_" data-uid="DTDLParser.Models.DTRelationshipInfo.Writable*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Writable" data-uid="DTDLParser.Models.DTRelationshipInfo.Writable">Writable</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the 'writable' property of the DTDL element that corresponds to this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Writable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The 'writable' property of the DTDL element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_DTDLParser_Models_DTContentInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals(DTDLParser.Models.DTContentInfo)">DeepEquals(DTContentInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTContentInfo</code> object, recursing through the entire subtree of object properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool DeepEquals(DTContentInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTContentInfo.html">DTContentInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTContentInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_DeepEquals_DTDLParser_Models_DTContentInfo_">DTContentInfo.DeepEquals(DTContentInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_DTDLParser_Models_DTEntityInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals(DTDLParser.Models.DTEntityInfo)">DeepEquals(DTEntityInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTEntityInfo</code> object, recursing through the entire subtree of object properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool DeepEquals(DTEntityInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTEntityInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_DeepEquals_DTDLParser_Models_DTEntityInfo_">DTContentInfo.DeepEquals(DTEntityInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_DTDLParser_Models_DTNamedEntityInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals(DTDLParser.Models.DTNamedEntityInfo)">DeepEquals(DTNamedEntityInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTNamedEntityInfo</code> object, recursing through the entire subtree of object properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool DeepEquals(DTNamedEntityInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTNamedEntityInfo.html">DTNamedEntityInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTNamedEntityInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_DeepEquals_DTDLParser_Models_DTNamedEntityInfo_">DTContentInfo.DeepEquals(DTNamedEntityInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_DeepEquals_DTDLParser_Models_DTRelationshipInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.DeepEquals(DTDLParser.Models.DTRelationshipInfo)">DeepEquals(DTRelationshipInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTRelationshipInfo</code> object, recursing through the entire subtree of object properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool DeepEquals(DTRelationshipInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTRelationshipInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Equals_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Equals_DTDLParser_Models_DTContentInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals(DTDLParser.Models.DTContentInfo)">Equals(DTContentInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTContentInfo</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(DTContentInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTContentInfo.html">DTContentInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTContentInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_Equals_DTDLParser_Models_DTContentInfo_">DTContentInfo.Equals(DTContentInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Equals_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Equals_DTDLParser_Models_DTEntityInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals(DTDLParser.Models.DTEntityInfo)">Equals(DTEntityInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTEntityInfo</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(DTEntityInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTEntityInfo.html">DTEntityInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTEntityInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_Equals_DTDLParser_Models_DTEntityInfo_">DTContentInfo.Equals(DTEntityInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Equals_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Equals_DTDLParser_Models_DTNamedEntityInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals(DTDLParser.Models.DTNamedEntityInfo)">Equals(DTNamedEntityInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTNamedEntityInfo</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(DTNamedEntityInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTNamedEntityInfo.html">DTNamedEntityInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTNamedEntityInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DTDLParser.Models.DTContentInfo.html#DTDLParser_Models_DTContentInfo_Equals_DTDLParser_Models_DTNamedEntityInfo_">DTContentInfo.Equals(DTNamedEntityInfo)</a></div>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_Equals_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_Equals_DTDLParser_Models_DTRelationshipInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.Equals(DTDLParser.Models.DTRelationshipInfo)">Equals(DTRelationshipInfo)</h4>
+  <div class="markdown level1 summary"><p>Compares to another <code>DTRelationshipInfo</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool Equals(DTRelationshipInfo other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other <code>DTRelationshipInfo</code> object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_op_Equality_" data-uid="DTDLParser.Models.DTRelationshipInfo.op_Equality*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_op_Equality_DTDLParser_Models_DTRelationshipInfo_DTDLParser_Models_DTRelationshipInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.op_Equality(DTDLParser.Models.DTRelationshipInfo,DTDLParser.Models.DTRelationshipInfo)">Equality(DTRelationshipInfo, DTRelationshipInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two <code>DTRelationshipInfo</code> objects are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(DTRelationshipInfo x, DTRelationshipInfo y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>One <code>DTRelationshipInfo</code> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Another <code>DTRelationshipInfo</code> object to compare to the first.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_Models_DTRelationshipInfo_op_Inequality_" data-uid="DTDLParser.Models.DTRelationshipInfo.op_Inequality*"></a>
+  <h4 id="DTDLParser_Models_DTRelationshipInfo_op_Inequality_DTDLParser_Models_DTRelationshipInfo_DTDLParser_Models_DTRelationshipInfo_" data-uid="DTDLParser.Models.DTRelationshipInfo.op_Inequality(DTDLParser.Models.DTRelationshipInfo,DTDLParser.Models.DTRelationshipInfo)">Inequality(DTRelationshipInfo, DTRelationshipInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two <code>DTRelationshipInfo</code> objects are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(DTRelationshipInfo x, DTRelationshipInfo y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>One <code>DTRelationshipInfo</code> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DTDLParser.Models.DTRelationshipInfo.html">DTRelationshipInfo</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Another <code>DTRelationshipInfo</code> object to compare to the first.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

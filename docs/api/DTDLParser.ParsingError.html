@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParsingError
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParsingError
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DTDLParser.ParsingError">
+  
+  
+  <h1 id="DTDLParser_ParsingError" data-uid="DTDLParser.ParsingError" class="text-break">Class ParsingError
+  </h1>
+  <div class="markdown level0 summary"><p>Provides information about a model error that was discovered during DTDL parsing.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ParsingError</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DTDLParser.html">DTDLParser</a></h6>
+  <h6><strong>Assembly</strong>: Microsoft.Azure.DigitalTwins.Parser.dll</h6>
+  <h5 id="DTDLParser_ParsingError_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ParsingError</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DTDLParser_ParsingError_Action_" data-uid="DTDLParser.ParsingError.Action*"></a>
+  <h4 id="DTDLParser_ParsingError_Action" data-uid="DTDLParser.ParsingError.Action">Action</h4>
+  <div class="markdown level1 summary"><p>Gets a textual description of an action to resolve the error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Action { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A description of the recommeded action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_AuxProperty_" data-uid="DTDLParser.ParsingError.AuxProperty*"></a>
+  <h4 id="DTDLParser_ParsingError_AuxProperty" data-uid="DTDLParser.ParsingError.AuxProperty">AuxProperty</h4>
+  <div class="markdown level1 summary"><p>Gets an auxiliary property in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AuxProperty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The relevant auxiliary property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Cause_" data-uid="DTDLParser.ParsingError.Cause*"></a>
+  <h4 id="DTDLParser_ParsingError_Cause" data-uid="DTDLParser.ParsingError.Cause">Cause</h4>
+  <div class="markdown level1 summary"><p>Gets a textual description of the cause of the error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Cause { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A description of the error cause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Layer_" data-uid="DTDLParser.ParsingError.Layer*"></a>
+  <h4 id="DTDLParser_ParsingError_Layer" data-uid="DTDLParser.ParsingError.Layer">Layer</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the layer in which the error was found, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Layer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Name of the relevant layer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DTDLParser_ParsingError_Layer_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If layers are not supported, the value can be ignored, since it will always be the empty string.</p>
+</div>
+  
+  
+  <a id="DTDLParser_ParsingError_Message_" data-uid="DTDLParser.ParsingError.Message*"></a>
+  <h4 id="DTDLParser_ParsingError_Message" data-uid="DTDLParser.ParsingError.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Gets a textual message describing the error; this is a concatenation of <code>Cause</code> and <code>Action</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_PrimaryID_" data-uid="DTDLParser.ParsingError.PrimaryID*"></a>
+  <h4 id="DTDLParser_ParsingError_PrimaryID" data-uid="DTDLParser.ParsingError.PrimaryID">PrimaryID</h4>
+  <div class="markdown level1 summary"><p>Gets the primary identifier of an element in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri PrimaryID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>The ID of a relevant element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_PrimaryLocationEnd_" data-uid="DTDLParser.ParsingError.PrimaryLocationEnd*"></a>
+  <h4 id="DTDLParser_ParsingError_PrimaryLocationEnd" data-uid="DTDLParser.ParsingError.PrimaryLocationEnd">PrimaryLocationEnd</h4>
+  <div class="markdown level1 summary"><p>Gets the ending line number within the source file where the error is primarily in evidence, or zero if not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PrimaryLocationEnd { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Ending line number of the error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_PrimaryLocationName_" data-uid="DTDLParser.ParsingError.PrimaryLocationName*"></a>
+  <h4 id="DTDLParser_ParsingError_PrimaryLocationName" data-uid="DTDLParser.ParsingError.PrimaryLocationName">PrimaryLocationName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the source file in which the error is primarily in evidence, or null if not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PrimaryLocationName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The source name, commonly a file name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_PrimaryLocationStart_" data-uid="DTDLParser.ParsingError.PrimaryLocationStart*"></a>
+  <h4 id="DTDLParser_ParsingError_PrimaryLocationStart" data-uid="DTDLParser.ParsingError.PrimaryLocationStart">PrimaryLocationStart</h4>
+  <div class="markdown level1 summary"><p>Gets the starting line number within the source file where the error is primarily in evidence, or zero if not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PrimaryLocationStart { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Starting line number of the error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Property_" data-uid="DTDLParser.ParsingError.Property*"></a>
+  <h4 id="DTDLParser_ParsingError_Property" data-uid="DTDLParser.ParsingError.Property">Property</h4>
+  <div class="markdown level1 summary"><p>Gets the specific property in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Property { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The relevant property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Restriction_" data-uid="DTDLParser.ParsingError.Restriction*"></a>
+  <h4 id="DTDLParser_ParsingError_Restriction" data-uid="DTDLParser.ParsingError.Restriction">Restriction</h4>
+  <div class="markdown level1 summary"><p>Gets a string characterizing a restriction on permissible values, if such a restriction has been violated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Restriction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string description of the relevant restriction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_SecondaryID_" data-uid="DTDLParser.ParsingError.SecondaryID*"></a>
+  <h4 id="DTDLParser_ParsingError_SecondaryID" data-uid="DTDLParser.ParsingError.SecondaryID">SecondaryID</h4>
+  <div class="markdown level1 summary"><p>Gets the secondary identifier of an element in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri SecondaryID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>The ID of a relevant element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_SecondaryLocationEnd_" data-uid="DTDLParser.ParsingError.SecondaryLocationEnd*"></a>
+  <h4 id="DTDLParser_ParsingError_SecondaryLocationEnd" data-uid="DTDLParser.ParsingError.SecondaryLocationEnd">SecondaryLocationEnd</h4>
+  <div class="markdown level1 summary"><p>Gets the ending line number within the source file where the error is secondarily in evidence, or zero if none or not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SecondaryLocationEnd { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Ending line number of the error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_SecondaryLocationName_" data-uid="DTDLParser.ParsingError.SecondaryLocationName*"></a>
+  <h4 id="DTDLParser_ParsingError_SecondaryLocationName" data-uid="DTDLParser.ParsingError.SecondaryLocationName">SecondaryLocationName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the source file in which the error is secondarily in evidence, or null if none or not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SecondaryLocationName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The source name, commonly a file name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_SecondaryLocationStart_" data-uid="DTDLParser.ParsingError.SecondaryLocationStart*"></a>
+  <h4 id="DTDLParser_ParsingError_SecondaryLocationStart" data-uid="DTDLParser.ParsingError.SecondaryLocationStart">SecondaryLocationStart</h4>
+  <div class="markdown level1 summary"><p>Gets the starting line number within the source file where the error is secondarily in evidence, or zero if none or not determinable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SecondaryLocationStart { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Starting line number of the error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Transformation_" data-uid="DTDLParser.ParsingError.Transformation*"></a>
+  <h4 id="DTDLParser_ParsingError_Transformation" data-uid="DTDLParser.ParsingError.Transformation">Transformation</h4>
+  <div class="markdown level1 summary"><p>Gets a string characterizing a transformation whose application caused the error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Transformation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string description of the relevant transformation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Type_" data-uid="DTDLParser.ParsingError.Type*"></a>
+  <h4 id="DTDLParser_ParsingError_Type" data-uid="DTDLParser.ParsingError.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the specific property in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The relevant type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_ValidationID_" data-uid="DTDLParser.ParsingError.ValidationID*"></a>
+  <h4 id="DTDLParser_ParsingError_ValidationID" data-uid="DTDLParser.ParsingError.ValidationID">ValidationID</h4>
+  <div class="markdown level1 summary"><p>Gets a valididation ID that characterizes the category of error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri ValidationID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>A unique identifier for the category of error.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Value_" data-uid="DTDLParser.ParsingError.Value*"></a>
+  <h4 id="DTDLParser_ParsingError_Value" data-uid="DTDLParser.ParsingError.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specific property in the model relating to the error, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The relevant property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DTDLParser_ParsingError_Violations_" data-uid="DTDLParser.ParsingError.Violations*"></a>
+  <h4 id="DTDLParser_ParsingError_Violations" data-uid="DTDLParser.ParsingError.Violations">Violations</h4>
+  <div class="markdown level1 summary"><p>Gets a list of strings that each indicate a validation failure, if there are any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Violations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>A list of strings, one per validation failure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DTDLParser_ParsingError_ToString_" data-uid="DTDLParser.ParsingError.ToString*"></a>
+  <h4 id="DTDLParser_ParsingError_ToString" data-uid="DTDLParser.ParsingError.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string that represents the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

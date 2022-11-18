@@ -1,0 +1,768 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/johndo/Git/DTDL-parser-proto/api-docs/dotnet",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DTEntityKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DTEntityKind.html",
+          "hash": "8wB+Sn3aZgtV4bQcLA4BMLV8scYqCLjkTU1LKvhi/AU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DTExtensionKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DTExtensionKind.html",
+          "hash": "l/54PGvdj+Akn9uVBc/yUcSAkrhSun9Zmi+bkMPIdSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DtdlParseLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DtdlParseLocator.html",
+          "hash": "j1jnpAkKJ2lt8cv6rNqOA3+0b0PoLlFAFi8JnAXz9Z8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DtdlResolveLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DtdlResolveLocator.html",
+          "hash": "dtgE7vrwM78zqcL+8FFLvuT4mqaPo3BoE/2AOS/TSFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Dtmi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Dtmi.html",
+          "hash": "hlfFjZtaI4bDs2Mdwrl1/g2lIK2HzturYd+YJeXyPjo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DtmiReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DtmiReference.html",
+          "hash": "sn5v4pZ2p7LAMbeE9CuIEcMXyRjAWt3URvcEIQUuKjg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DtmiResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DtmiResolver.html",
+          "hash": "0hvgfpqjCoL4qW604rVdeMBHg5nxaTsCbDTOliw/V20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.DtmiResolverAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.DtmiResolverAsync.html",
+          "hash": "VIv+/NmiBPlmsnZIon0QS7bNOiC0lDSBmucaaWQRL6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ExceptionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ExceptionException.html",
+          "hash": "JV/I1D2eDqdvUKUUaQY9+fpiF8JCLsggzeaemHS/z+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.IRootable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.IRootable.html",
+          "hash": "7mzRqSTnaUbyLLzfWRIIjjcZrtADViiKajGa0Llhoa8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ModelParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ModelParser.html",
+          "hash": "cYh3b4dlQ9SNXC6IDe+GBuBH/IL8y6ZtyZyYNyk0UAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ModelParsingOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ModelParsingOption.html",
+          "hash": "FN6mCMUVDe6YpCMPQIdtBl6nCWKN/fZEKkrzYmK+syE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTArrayInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTArrayInfo.html",
+          "hash": "aUWF4Q2llWDLWYvSt8Q2IeOj+qEZc0mZQUu+JRRG3PU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTBooleanInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTBooleanInfo.html",
+          "hash": "YPfrP1rZ3u11ti5qEWky4dhXP77ID4T+wncUeiGsuG8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTCommandInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTCommandInfo.html",
+          "hash": "fJZC1GRgMZ7SiUZNvH4R7+ZOBuch3kUzptN1FwDr480="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTCommandPayloadInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTCommandPayloadInfo.html",
+          "hash": "K88t8O6GD9P5luvjJIGlbYUKlbB7pBY9o4sz+riA5FY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTCommandTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTCommandTypeInfo.html",
+          "hash": "5lH2OXiu1Ny5UAbJoYe0k8bMFBS2OdCtkBCrpk96ROQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTComplexSchemaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTComplexSchemaInfo.html",
+          "hash": "mz37Dll8xyaBIkAG4XPE5Icg+JftmuqfcVCBQI8yjXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTComponentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTComponentInfo.html",
+          "hash": "XipYM/DVYQVPUGTr4eotKCks+8A60pqqUNtFo+YM1II="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTContentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTContentInfo.html",
+          "hash": "3G45c9MH6ye6Bq/bFocB3sKLR4ZOzDpzuCpTBHV4IpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTDateInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTDateInfo.html",
+          "hash": "E00al3HzCEQtosgd25FZyEf9fHFuvYO1h9X87EJcYBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTDateTimeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTDateTimeInfo.html",
+          "hash": "snuQTdfPKTPuu7M8tzwVp6WUEjv+8qjILgEEPwHP/Vk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTDoubleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTDoubleInfo.html",
+          "hash": "zTAup8O7/r7YgjDqwGYpBLqAisagCr69LRnmyL33fzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTDurationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTDurationInfo.html",
+          "hash": "/7fXvMkxyMnmNyeCyi/OUfGmsOjdoKT2GwshJ602p3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTEntityInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTEntityInfo.html",
+          "hash": "r/QcfaGYxxghXp08FO/2ZK/zo5oMIVrS4NO41/nsHes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTEnumInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTEnumInfo.html",
+          "hash": "l7l0AOQTk94HxorvLe2GRCvwrFaGAyzKmQu7E8ZY/Bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTEnumValueInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTEnumValueInfo.html",
+          "hash": "Bijn3hh1QZFmxDIpQLPYyyRrtcWFVhrtl2PoOw3V0yU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTFieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTFieldInfo.html",
+          "hash": "8leRSC8Y3AyDtB9IfJHb3FIfRHqBBY6zspr08Y9FeCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTFloatInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTFloatInfo.html",
+          "hash": "6Amq2OIwuGxW9gYqmYdFsjEOtPF7ftU0aLkwlZiXkig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTIntegerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTIntegerInfo.html",
+          "hash": "2SXNR7fZMOS1fZWXI5EvbYSt9V+i81dR+AHrMRVGOGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTInterfaceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTInterfaceInfo.html",
+          "hash": "Y9kg6UFTZ+aN7Ch/dlbUI3gMSvTFA5Y76e4RvgdLq64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTLongInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTLongInfo.html",
+          "hash": "qcC4xi9PTcFkKc8E8rYRlWA5a3UWnL+KqXBTpLQqjF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTMapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTMapInfo.html",
+          "hash": "irsmgf4K6Q1JIISIZGHi7IVqimSIdtfk3k+GudN/wxQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTMapKeyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTMapKeyInfo.html",
+          "hash": "qNZV3QWxWGugb7WEjeZ3UfpjyhPa0QcDNcUz6hw52PI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTMapValueInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTMapValueInfo.html",
+          "hash": "gCxQXP1nn9QYPuaS/Nw8bF3ggarTCkgTyWhuv5ywL6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTNamedEntityInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTNamedEntityInfo.html",
+          "hash": "oAEdt6TH2QUC+gqKpA22IKoNb2hFsj45rUGpUGgF+sA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTNumericSchemaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTNumericSchemaInfo.html",
+          "hash": "MkyOdEcygya36qj48PTOfAQfI3QyO7MQnX2CwNVPAmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTObjectInfo.html",
+          "hash": "PiK6YxghssW3NN5aDGWASDMN1FXBkHQjfZHMYZTJgN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTPrimitiveSchemaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTPrimitiveSchemaInfo.html",
+          "hash": "xwhTToWw2AkeElyLuOJT/SqoUQ/3zelSLeKq3aPWrYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTPropertyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTPropertyInfo.html",
+          "hash": "NEobLhuM+OP+WXOu7XLMRULRutZCl4zbvGpqiZvkFDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTRelationshipInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTRelationshipInfo.html",
+          "hash": "vhnnSBLd2TwkvhasI3rStnZ/QjjI3+61nYmHro0/xfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTSchemaFieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTSchemaFieldInfo.html",
+          "hash": "jxrR5HNjeYUOTNMGrJPMxOYLFQPtalnw3SNs23Euink="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTSchemaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTSchemaInfo.html",
+          "hash": "8n6frWIISjiSd9EfM5Tiuobmu91Q1VSzv0GAlxCVe2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTStringInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTStringInfo.html",
+          "hash": "PWyT3zk4t0SyTAnqP9sT7Jul3hAGh6NHtr00HsZDGwI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTSupplementalPropertyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTSupplementalPropertyInfo.html",
+          "hash": "V3keMcNknp6ZBZ2zZfydeQJ14bZ98I/rPvsMczANz3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTSupplementalTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTSupplementalTypeInfo.html",
+          "hash": "cuuTxM3ryDqaJoUcZ9duopw4cnci6NHrexwNqiPLbmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTTelemetryInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTTelemetryInfo.html",
+          "hash": "7f23Y/OxkXBkfwOkEUNSkI0OVzu4O10RFs3Hy4e3+xA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTTemporalSchemaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTTemporalSchemaInfo.html",
+          "hash": "gfCriHlTxsM+m1b6HnWhqTomGpLNO48EBPg6umaIK/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTTimeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTTimeInfo.html",
+          "hash": "XBDqrAQe6kQUbH92fT7a7wlN2r2G5wW6nLikmzH7h9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTUnitAttributeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTUnitAttributeInfo.html",
+          "hash": "+CGvSxSkmCKUsmJSGyu6KtmTSltPLAr+0GqlN1oVWqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTUnitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTUnitInfo.html",
+          "hash": "477qaIdLP73SHH8o1XCmvUqzll4jLZic9K9G/kQqpI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.ModelParserModelFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.ModelParserModelFactory.html",
+          "hash": "buKgPxufeZDQXgvyzMK7/t8UiG9wnRnwAxVLA0SU8pg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.html",
+          "hash": "3Y2PE6oxyvHw9l4vRR3AJGbbM4d+n4hYQ+4MMprqv4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ParsingError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ParsingError.html",
+          "hash": "w3jzhXp0/aa0I58FdHHJXYW6jwLgIHiuqnKyFl4zbzA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ParsingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ParsingException.html",
+          "hash": "l/KyI4qX5LhB5bku9aKamy+OzaRy24OsishB2v0/1Zk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ResolutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ResolutionException.html",
+          "hash": "3rWr1Bxw2S4d2oBUHSMagwxiNZAjBu2hs0TT0JZaM4Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.SequencingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.SequencingException.html",
+          "hash": "P21DtVKvlg6ZX3PhxswhgZXwCt1nPuMPy3HqPniGiEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.ValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.ValidationException.html",
+          "hash": "MPIiK1x+cmVS60WHDIAFefTar+BcG8VSocfVxl6WrMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.html",
+          "hash": "z323Ro+faT/sU5L7lyLHWGm/+fcbNN+rLmCA83y84jg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "5OkwuyCtsyTAOF5v9q5xmNw87hse5L6KZwSKJwKV0YU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 59,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
