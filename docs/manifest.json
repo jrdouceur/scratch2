@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DTEntityKind.html",
-          "hash": "8wB+Sn3aZgtV4bQcLA4BMLV8scYqCLjkTU1LKvhi/AU="
+          "hash": "svSDgNn4SXlkmOLuG8QbTN+3VuFhPY8Mh7d1SMMZ7Hc="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DTExtensionKind.html",
-          "hash": "l/54PGvdj+Akn9uVBc/yUcSAkrhSun9Zmi+bkMPIdSk="
+          "hash": "kHNGs36eHNEAvl3hj7DGNtbQBWOuta3cIrNIGI7xr9c="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DtdlParseLocator.html",
-          "hash": "j1jnpAkKJ2lt8cv6rNqOA3+0b0PoLlFAFi8JnAXz9Z8="
+          "hash": "iUNg+LcQTIzLiTSlpakRYuYHHkBlgNKSH7EoR6r4Hm8="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DtdlResolveLocator.html",
-          "hash": "dtgE7vrwM78zqcL+8FFLvuT4mqaPo3BoE/2AOS/TSFw="
+          "hash": "oOX9Wys8GpG1LBCIYXtBJF5j2R2PgnjGf08LLLY7MpM="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Dtmi.html",
-          "hash": "hlfFjZtaI4bDs2Mdwrl1/g2lIK2HzturYd+YJeXyPjo="
+          "hash": "ELAVjhDOxm76dW8JTzRaADRlsMK6PC8hxg/cai6jIbM="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DtmiReference.html",
-          "hash": "sn5v4pZ2p7LAMbeE9CuIEcMXyRjAWt3URvcEIQUuKjg="
+          "hash": "Z9NSn501Y3GnKHsspr+0+vflJWEEC5a4OL4KTpGhDfU="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DtmiResolver.html",
-          "hash": "0hvgfpqjCoL4qW604rVdeMBHg5nxaTsCbDTOliw/V20="
+          "hash": "7DsewwuJDvF7puVah5H1Wj/9+LbUSb+Ig2jtGAqLXJM="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.DtmiResolverAsync.html",
-          "hash": "VIv+/NmiBPlmsnZIon0QS7bNOiC0lDSBmucaaWQRL6M="
+          "hash": "v2SN2cC5lYxL57W9K/AkSJ63aP2Mlu5t9AONKG45RKI="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ExceptionException.html",
-          "hash": "JV/I1D2eDqdvUKUUaQY9+fpiF8JCLsggzeaemHS/z+8="
+          "hash": "xYwnxGNTIHuUTS80ula29+ePd1jUZEvJawM+8GGwSUo="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.IRootable.html",
-          "hash": "7mzRqSTnaUbyLLzfWRIIjjcZrtADViiKajGa0Llhoa8="
+          "hash": "9D8mJRYy/o01CZFuDfWEQefjaL0rxu/UaZWvqjpVLKg="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ModelParser.html",
-          "hash": "cYh3b4dlQ9SNXC6IDe+GBuBH/IL8y6ZtyZyYNyk0UAk="
+          "hash": "8wTCFHQ3Q3NUihWZMUAfqBuY5ZLnBOPus4Wi2fhX+Rg="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ModelParsingOption.html",
-          "hash": "FN6mCMUVDe6YpCMPQIdtBl6nCWKN/fZEKkrzYmK+syE="
+          "hash": "1GsRieAssrWUOWNdAqZBzR9YacvVb9i14gxsnTpKU2c="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTArrayInfo.html",
-          "hash": "aUWF4Q2llWDLWYvSt8Q2IeOj+qEZc0mZQUu+JRRG3PU="
+          "hash": "/LqibQTIkLdrLa7Dp64SIxFX2eEH09V2vB8Zaz6owu4="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTBooleanInfo.html",
-          "hash": "YPfrP1rZ3u11ti5qEWky4dhXP77ID4T+wncUeiGsuG8="
+          "hash": "8kLrGYV7p7LDOqLv8Sw+DeocVP3tAVGrxm/eSUQewQo="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTCommandInfo.html",
-          "hash": "fJZC1GRgMZ7SiUZNvH4R7+ZOBuch3kUzptN1FwDr480="
+          "hash": "BT7Yr0cvWnmxLEjHyW4Ehwn7VW3ri2IS1+bfwDRXd7A="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,31 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTCommandPayloadInfo.html",
-          "hash": "K88t8O6GD9P5luvjJIGlbYUKlbB7pBY9o4sz+riA5FY="
+          "hash": "FNC5nBQUB6fhKjCA2TUi9eaz1KiYk/0fzmD4XDYN3r8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTCommandRequestInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTCommandRequestInfo.html",
+          "hash": "yhSpo0JQ0FAOJx+dsvN/b5g0WEizDwF3v+phUZqmCao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTCommandResponseInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTCommandResponseInfo.html",
+          "hash": "DWjdWg7pczTx+8EjZI5X2+ttsfMYcH1r8DpAcCo9RA8="
         }
       },
       "is_incremental": false,
@@ -201,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTCommandTypeInfo.html",
-          "hash": "5lH2OXiu1Ny5UAbJoYe0k8bMFBS2OdCtkBCrpk96ROQ="
+          "hash": "yNt41J8RYspUI5Q8YKikxyCQ7sYMcISZuJWT3oSxBd8="
         }
       },
       "is_incremental": false,
@@ -213,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTComplexSchemaInfo.html",
-          "hash": "mz37Dll8xyaBIkAG4XPE5Icg+JftmuqfcVCBQI8yjXs="
+          "hash": "YgsCQEznv0t0XqQ7xEbHuEHB2Bp+yn8nzbZq7uIigfE="
         }
       },
       "is_incremental": false,
@@ -225,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTComponentInfo.html",
-          "hash": "XipYM/DVYQVPUGTr4eotKCks+8A60pqqUNtFo+YM1II="
+          "hash": "2QgTwrC1QLkcFr/1QdK+SnvH2VXKSVRaOxXW/n7LvqY="
         }
       },
       "is_incremental": false,
@@ -237,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTContentInfo.html",
-          "hash": "3G45c9MH6ye6Bq/bFocB3sKLR4ZOzDpzuCpTBHV4IpI="
+          "hash": "ZxClRZNg+BJWeZX9AAM+I7DPCvAgsc4J+nbuHxHXRJU="
         }
       },
       "is_incremental": false,
@@ -249,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTDateInfo.html",
-          "hash": "E00al3HzCEQtosgd25FZyEf9fHFuvYO1h9X87EJcYBk="
+          "hash": "bzW8sOuzBE24rPh5T2zNFsJ2Hx6VbMvCnLe5ALYexSY="
         }
       },
       "is_incremental": false,
@@ -261,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTDateTimeInfo.html",
-          "hash": "snuQTdfPKTPuu7M8tzwVp6WUEjv+8qjILgEEPwHP/Vk="
+          "hash": "MGZqOUo1N265HTO1/V6GIojS2rm5GXtASibwVnYWH/g="
         }
       },
       "is_incremental": false,
@@ -273,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTDoubleInfo.html",
-          "hash": "zTAup8O7/r7YgjDqwGYpBLqAisagCr69LRnmyL33fzQ="
+          "hash": "uSWWnUV+teqRB3ph9pPn+KwB4qAvtBOeRqojL0J8Kwg="
         }
       },
       "is_incremental": false,
@@ -285,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTDurationInfo.html",
-          "hash": "/7fXvMkxyMnmNyeCyi/OUfGmsOjdoKT2GwshJ602p3c="
+          "hash": "jbUfpZeGwKED9K1t/ONSYr00mLMOENdgdXqIs1xeyHQ="
         }
       },
       "is_incremental": false,
@@ -297,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTEntityInfo.html",
-          "hash": "r/QcfaGYxxghXp08FO/2ZK/zo5oMIVrS4NO41/nsHes="
+          "hash": "KZ4Pj5aufdRLS0PDoQf6uOLhkV1lvvddaNVOZsQCKo8="
         }
       },
       "is_incremental": false,
@@ -309,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTEnumInfo.html",
-          "hash": "l7l0AOQTk94HxorvLe2GRCvwrFaGAyzKmQu7E8ZY/Bk="
+          "hash": "PdX9rxPmUphO5+mN/E2g7zzIWKt8JNtdAgDdgrYwWao="
         }
       },
       "is_incremental": false,
@@ -321,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTEnumValueInfo.html",
-          "hash": "Bijn3hh1QZFmxDIpQLPYyyRrtcWFVhrtl2PoOw3V0yU="
+          "hash": "1S5QFtcqFmFQ2WOvvTUH94jy52P2wDxJUa9n1q9g6LU="
         }
       },
       "is_incremental": false,
@@ -333,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTFieldInfo.html",
-          "hash": "8leRSC8Y3AyDtB9IfJHb3FIfRHqBBY6zspr08Y9FeCY="
+          "hash": "ITlFTL/NfcA4LHqEo12qd5K+rq+o80GmwijtvqehdsM="
         }
       },
       "is_incremental": false,
@@ -345,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTFloatInfo.html",
-          "hash": "6Amq2OIwuGxW9gYqmYdFsjEOtPF7ftU0aLkwlZiXkig="
+          "hash": "fy3bxX7ezSmY0uEk4h6rGdg5UhjAkSQCQfmvYamZuN8="
         }
       },
       "is_incremental": false,
@@ -357,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTIntegerInfo.html",
-          "hash": "2SXNR7fZMOS1fZWXI5EvbYSt9V+i81dR+AHrMRVGOGg="
+          "hash": "tdZzGvXHqeXcp5CbXLCGA30q+LAAEU/s5hq6ic0dk5k="
         }
       },
       "is_incremental": false,
@@ -369,7 +393,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTInterfaceInfo.html",
-          "hash": "Y9kg6UFTZ+aN7Ch/dlbUI3gMSvTFA5Y76e4RvgdLq64="
+          "hash": "04K6Y0j7tnF9LBTZf+YJjIvJ5lQUkRd3R+mzd2ZoyDI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTLatentTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTLatentTypeInfo.html",
+          "hash": "ccN0riGzEjqWvmT0vbJWzTz/iZE1m5G2FndUSdVbE30="
         }
       },
       "is_incremental": false,
@@ -381,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTLongInfo.html",
-          "hash": "qcC4xi9PTcFkKc8E8rYRlWA5a3UWnL+KqXBTpLQqjF8="
+          "hash": "/N43k4fUO3xnCFleDHQkryT5oBq7pt0mZMUfLdFThSk="
         }
       },
       "is_incremental": false,
@@ -393,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTMapInfo.html",
-          "hash": "irsmgf4K6Q1JIISIZGHi7IVqimSIdtfk3k+GudN/wxQ="
+          "hash": "ApTsXyHIt5ik6Ga5IdQJ9tRvXzWL/hIGdY1Vxx8qMCg="
         }
       },
       "is_incremental": false,
@@ -405,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTMapKeyInfo.html",
-          "hash": "qNZV3QWxWGugb7WEjeZ3UfpjyhPa0QcDNcUz6hw52PI="
+          "hash": "gWn935jY0V+kTp8DfOTYocoZA+P0o1v0/Wo2iD5WzqI="
         }
       },
       "is_incremental": false,
@@ -417,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTMapValueInfo.html",
-          "hash": "gCxQXP1nn9QYPuaS/Nw8bF3ggarTCkgTyWhuv5ywL6E="
+          "hash": "zcrcTxl61l7nBBrp2iAClgOvqFw7XCtV/DaKmDUcvTk="
         }
       },
       "is_incremental": false,
@@ -429,7 +465,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTNamedEntityInfo.html",
-          "hash": "oAEdt6TH2QUC+gqKpA22IKoNb2hFsj45rUGpUGgF+sA="
+          "hash": "WK8HiX677NjpuxwhO/gvDX/ejvk0DHjF81f7c2l4cRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DTDLParser.Models.DTNamedLatentTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DTDLParser.Models.DTNamedLatentTypeInfo.html",
+          "hash": "RJ6Emu7JJiNF7BWbCHtD1ruMYwE60+O/HFjcEQdJZFg="
         }
       },
       "is_incremental": false,
@@ -441,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTNumericSchemaInfo.html",
-          "hash": "MkyOdEcygya36qj48PTOfAQfI3QyO7MQnX2CwNVPAmA="
+          "hash": "nQI2ql5mYOiRuFw3+dDXRNLxCRWDoKwtnPbq6BoYq8Y="
         }
       },
       "is_incremental": false,
@@ -453,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTObjectInfo.html",
-          "hash": "PiK6YxghssW3NN5aDGWASDMN1FXBkHQjfZHMYZTJgN0="
+          "hash": "goI1m4CFuhFQx+nRzK2HqfOD2cJgfSudKo8Knr/G6mA="
         }
       },
       "is_incremental": false,
@@ -465,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTPrimitiveSchemaInfo.html",
-          "hash": "xwhTToWw2AkeElyLuOJT/SqoUQ/3zelSLeKq3aPWrYw="
+          "hash": "FPgiBtMBkxGOnplDc16AjATfPK8EknqGCBSn7hvMbwc="
         }
       },
       "is_incremental": false,
@@ -477,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTPropertyInfo.html",
-          "hash": "NEobLhuM+OP+WXOu7XLMRULRutZCl4zbvGpqiZvkFDI="
+          "hash": "c/4gP2Fw6vV7pnd+VHMHYh5BmyZkSSy8jT8+UObXsck="
         }
       },
       "is_incremental": false,
@@ -489,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTRelationshipInfo.html",
-          "hash": "vhnnSBLd2TwkvhasI3rStnZ/QjjI3+61nYmHro0/xfI="
+          "hash": "CvPWJGYQfyR/dn+fGV3FpYKozdO5gz0sJR7ycSd0Cto="
         }
       },
       "is_incremental": false,
@@ -501,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTSchemaFieldInfo.html",
-          "hash": "jxrR5HNjeYUOTNMGrJPMxOYLFQPtalnw3SNs23Euink="
+          "hash": "nFsluCqUvBrxo/y6BBcT9zYqumJZgjDCtmXpQosJznU="
         }
       },
       "is_incremental": false,
@@ -513,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTSchemaInfo.html",
-          "hash": "8n6frWIISjiSd9EfM5Tiuobmu91Q1VSzv0GAlxCVe2M="
+          "hash": "KdAKg9z+xKyGekAnCrJ+mwlIih5v30B12y8cYDEgmo4="
         }
       },
       "is_incremental": false,
@@ -525,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTStringInfo.html",
-          "hash": "PWyT3zk4t0SyTAnqP9sT7Jul3hAGh6NHtr00HsZDGwI="
+          "hash": "7FObrefg4B/57wmfFKlaV8vE4yxbbV2Ex/HNhOjQrjw="
         }
       },
       "is_incremental": false,
@@ -537,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTSupplementalPropertyInfo.html",
-          "hash": "V3keMcNknp6ZBZ2zZfydeQJ14bZ98I/rPvsMczANz3o="
+          "hash": "bqj96kklTWYH1/uX6MO03EyjODxpzn4JUVLLaVydirY="
         }
       },
       "is_incremental": false,
@@ -549,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTSupplementalTypeInfo.html",
-          "hash": "cuuTxM3ryDqaJoUcZ9duopw4cnci6NHrexwNqiPLbmQ="
+          "hash": "9ooBTfF5pKuRSm3GiMyWlYyX2raYspZdz+p6iy/P7AQ="
         }
       },
       "is_incremental": false,
@@ -561,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTTelemetryInfo.html",
-          "hash": "7f23Y/OxkXBkfwOkEUNSkI0OVzu4O10RFs3Hy4e3+xA="
+          "hash": "cvpKiLo51IAZzTXQF5Ozov8+rwDaC2pKZ4LrMrH8EQA="
         }
       },
       "is_incremental": false,
@@ -573,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTTemporalSchemaInfo.html",
-          "hash": "gfCriHlTxsM+m1b6HnWhqTomGpLNO48EBPg6umaIK/0="
+          "hash": "ZJhiOIPebbH4XrDI3pEkF2MD3gsQYM+7JiMfsp4GbhE="
         }
       },
       "is_incremental": false,
@@ -585,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTTimeInfo.html",
-          "hash": "XBDqrAQe6kQUbH92fT7a7wlN2r2G5wW6nLikmzH7h9Q="
+          "hash": "8gmChtSipwBYGij7QWNJxVfhpH/Z2YjF5Qt5NfuKYlU="
         }
       },
       "is_incremental": false,
@@ -597,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTUnitAttributeInfo.html",
-          "hash": "+CGvSxSkmCKUsmJSGyu6KtmTSltPLAr+0GqlN1oVWqk="
+          "hash": "1S47U7ThlH24bcOkmR36ehz4zUJ6tZjCWrd9xQKby+k="
         }
       },
       "is_incremental": false,
@@ -609,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.DTUnitInfo.html",
-          "hash": "477qaIdLP73SHH8o1XCmvUqzll4jLZic9K9G/kQqpI4="
+          "hash": "iMIVRrITwDfOFb6DVE+a8BSAX0assOZaDlXbp86Ufmg="
         }
       },
       "is_incremental": false,
@@ -621,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.ModelParserModelFactory.html",
-          "hash": "buKgPxufeZDQXgvyzMK7/t8UiG9wnRnwAxVLA0SU8pg="
+          "hash": "FquoQBzl817ZzqVeo0rsgd/8UqXc7j5LmeOpP+c+gvU="
         }
       },
       "is_incremental": false,
@@ -633,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.Models.html",
-          "hash": "3Y2PE6oxyvHw9l4vRR3AJGbbM4d+n4hYQ+4MMprqv4U="
+          "hash": "XLgCPQgBiKZKEXVevogIBuQmqpGNH95RwfCcEJwyGyY="
         }
       },
       "is_incremental": false,
@@ -645,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ParsingError.html",
-          "hash": "w3jzhXp0/aa0I58FdHHJXYW6jwLgIHiuqnKyFl4zbzA="
+          "hash": "u+NhWCQqKpDFI/HndOpgv2zVBitkolh3V1LHxazc5Vs="
         }
       },
       "is_incremental": false,
@@ -657,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ParsingException.html",
-          "hash": "l/KyI4qX5LhB5bku9aKamy+OzaRy24OsishB2v0/1Zk="
+          "hash": "JiOp092e8Lqqs0fIepytfAgU8LhhTPI+LNal0e+HJ4E="
         }
       },
       "is_incremental": false,
@@ -669,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ResolutionException.html",
-          "hash": "3rWr1Bxw2S4d2oBUHSMagwxiNZAjBu2hs0TT0JZaM4Q="
+          "hash": "s+a2grYQoNQhAAHHWUyXd4eMFhlkP+oVRLXIjJOGQVY="
         }
       },
       "is_incremental": false,
@@ -681,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.SequencingException.html",
-          "hash": "P21DtVKvlg6ZX3PhxswhgZXwCt1nPuMPy3HqPniGiEg="
+          "hash": "gb96c3sxwTAKCIZQxHlN1K7AKGsESXMgmSWV868rJj4="
         }
       },
       "is_incremental": false,
@@ -693,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DTDLParser.ValidationException.html",
-          "hash": "MPIiK1x+cmVS60WHDIAFefTar+BcG8VSocfVxl6WrMA="
+          "hash": "ReL0mOR8MLzGW7KjCWzXYAUyin0H6KchhZTVR+kifm8="
         }
       },
       "is_incremental": false,
@@ -717,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5OkwuyCtsyTAOF5v9q5xmNw87hse5L6KZwSKJwKV0YU="
+          "hash": "50pLCTgiw+l8Q4CtPoeCP3GNK7iXcgR8TeSR/J8+U6M="
         }
       },
       "is_incremental": false,
@@ -736,8 +784,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 59,
-          "skipped_file_count": 0
+          "total_file_count": 63,
+          "skipped_file_count": 13
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
